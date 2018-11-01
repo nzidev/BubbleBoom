@@ -1,0 +1,314 @@
+
+Texture.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BackgroundGame
+  rotate: false
+  xy: 1, 216
+  size: 480, 800
+  orig: 480, 800
+  offset: 0, 0
+  index: -1
+BackgroundMain
+  rotate: false
+  xy: 483, 216
+  size: 480, 800
+  orig: 480, 800
+  offset: 0, 0
+  index: -1
+HighScore
+  rotate: false
+  xy: 1, 184
+  size: 211, 30
+  orig: 211, 30
+  offset: 0, 0
+  index: -1
+Score
+  rotate: false
+  xy: 1, 139
+  size: 149, 43
+  orig: 149, 43
+  offset: 0, 0
+  index: -1
+Time
+  rotate: false
+  xy: 1, 96
+  size: 118, 41
+  orig: 118, 41
+  offset: 0, 0
+  index: -1
+OffSound
+  rotate: false
+  xy: 1, 45
+  size: 98, 49
+  orig: 98, 49
+  offset: 0, 0
+  index: -1
+OnSound
+  rotate: false
+  xy: 1, 1
+  size: 67, 42
+  orig: 67, 42
+  offset: 0, 0
+  index: -1
+BaloonBlack
+  rotate: false
+  xy: 965, 966
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonBlue
+  rotate: false
+  xy: 965, 914
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonBlueDark
+  rotate: false
+  xy: 965, 862
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonBlueDark1
+  rotate: false
+  xy: 965, 810
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonBlueDark2
+  rotate: false
+  xy: 965, 758
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonBlueDark3
+  rotate: false
+  xy: 965, 706
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonBlueStar
+  rotate: false
+  xy: 965, 654
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonGreen
+  rotate: false
+  xy: 965, 602
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonGreenDark
+  rotate: false
+  xy: 965, 550
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonGreenStar
+  rotate: false
+  xy: 965, 498
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonLightBlue
+  rotate: false
+  xy: 965, 446
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonLightBlueDark
+  rotate: false
+  xy: 965, 394
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonLightBlueStar
+  rotate: false
+  xy: 965, 342
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonOrange
+  rotate: false
+  xy: 965, 290
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonOrangeDark
+  rotate: false
+  xy: 965, 238
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonOrangeStar
+  rotate: false
+  xy: 152, 132
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonPink
+  rotate: false
+  xy: 214, 164
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonPinkDark
+  rotate: false
+  xy: 266, 164
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonPinkStar
+  rotate: false
+  xy: 318, 164
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonPurple
+  rotate: false
+  xy: 370, 164
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonPurpleDark
+  rotate: false
+  xy: 422, 164
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonPurpleStar
+  rotate: false
+  xy: 474, 164
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonRed
+  rotate: false
+  xy: 526, 164
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+boom1
+  rotate: false
+  xy: 578, 164
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+boom2
+  rotate: false
+  xy: 630, 164
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+boom3
+  rotate: false
+  xy: 682, 164
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+BaloonRedDark
+  rotate: false
+  xy: 734, 164
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+BaloonRedStar
+  rotate: false
+  xy: 785, 164
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+
+Texture2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LVL
+  rotate: false
+  xy: 1, 1
+  size: 480, 800
+  orig: 480, 800
+  offset: 0, 0
+  index: -1
+progressStart
+  rotate: false
+  xy: 483, 1
+  size: 480, 800
+  orig: 480, 800
+  offset: 0, 0
+  index: -1
+
+Texture3.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+typeGame
+  rotate: false
+  xy: 1, 404
+  size: 462, 402
+  orig: 462, 402
+  offset: 0, 0
+  index: -1
+exit
+  rotate: false
+  xy: 1, 1
+  size: 460, 401
+  orig: 460, 401
+  offset: 0, 0
+  index: -1
+Info
+  rotate: false
+  xy: 465, 405
+  size: 460, 401
+  orig: 460, 401
+  offset: 0, 0
+  index: -1
+win
+  rotate: false
+  xy: 465, 2
+  size: 460, 401
+  orig: 460, 401
+  offset: 0, 0
+  index: -1
+
+Texture4.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Settings
+  rotate: false
+  xy: 1, 1
+  size: 458, 398
+  orig: 458, 398
+  offset: 0, 0
+  index: -1
