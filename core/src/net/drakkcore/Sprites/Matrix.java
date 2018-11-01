@@ -22,6 +22,7 @@ public class Matrix {
     private PlayState playState;
     private Array<Baloon> circles;
     public static Array<Baloon> powerCircles;
+    private Array<Stone> stones;
     private PowerBoomAnimation pweboomanimation;
 
     private float evX, evY, dragX, dragY;
@@ -79,6 +80,7 @@ public class Matrix {
 
         circles = new Array<Baloon>();
         powerCircles = new Array<Baloon>(); //baloons for collecting score
+        stones = new Array<Stone>();
 
         float miny, stepY;
         float minx, stepX;
@@ -103,11 +105,18 @@ public class Matrix {
                 x = minx + i * stepX;
                 y = miny + j * stepY;
 
-
-                color = random.nextInt(colors) + 1;
-                this.circles.add(new Baloon(color, x, y));
+                if (i == 1 && j ==1)
+                {
+                    this.stones.add(new Stone(x,y));
+                }
+                //else {
+                    color = random.nextInt(colors) + 1;
+                    this.circles.add(new Baloon(color, x, y));
+                //}
             }
         }
+
+
 
         //position of baloons for collecting score
         for (int i=1;i<=colors;i++)
@@ -117,6 +126,7 @@ public class Matrix {
             y = miny + count * stepY;
             color = i;
             this.powerCircles.add(new Baloon(color,x,y));
+
 
         }
 
@@ -210,7 +220,7 @@ public class Matrix {
         exposionStep = false;
         maybeArray.clear();
         if (!startFall) {
-            for (int i = 0; i < count * count; i++) {
+           /* for (int i = 0; i < count * count; i++) {
                 if (circles.get(i).getStates() == Baloon.BaloonState.GREY) {
                     // Gdx.app.log("Matrix", " GREY " + i);
                 }
@@ -220,7 +230,7 @@ public class Matrix {
                 if (circles.get(i).getStates() == Baloon.BaloonState.CROSS) {
                     // Gdx.app.log("Matrix", " CROSS " + i);
                 }
-            }
+            }*/
             int eqal = 1;
             int nextrowbaloon;
             for (int col = 0; col < count; col++) {
@@ -583,6 +593,14 @@ public class Matrix {
             ResourseLoader.font.draw(sb, "" + powerCircles.get(i).getScore(), powerCircles.get(i).getPosition().x + circleRadius /2,powerCircles.get(i).getPosition().y + circleRadius * 2);
         }
     }
+
+    public void drawStones(SpriteBatch sb, float runTime)
+    {
+        for (int i = 0; i < stones.size; i++) {
+            sb.draw(stones.get(i).getColorSprite(), stones.get(i).getPosition().x, stones.get(i).getPosition().y, circleRadius * 2, circleRadius * 2);
+        }
+    }
+
 
     public void drawSoul(SpriteBatch sb)
     {

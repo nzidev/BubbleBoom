@@ -204,8 +204,12 @@ public class PlayState extends State {
         sb.enableBlending();
         sb.draw(playbtn, screenWidth - playbtn.getWidth()-5, screenHeight - playbtn.getHeight() - 5);
         matrix.drawCircles(sb, runTime);
-        matrix.drawPowerCircles(sb,runTime);
-        matrix.drawSoul(sb);
+        if (ConstantLoader.ENABLE_POWERCIRCLE) {
+            matrix.drawPowerCircles(sb, runTime);
+            matrix.drawSoul(sb);
+        }
+
+        matrix.drawStones(sb, runTime);
         drawScore(sb);
         drawHighScore(sb);
         drawMode(sb);
@@ -277,6 +281,7 @@ public class PlayState extends State {
     private void drawHighScore(SpriteBatch sb) {
 
         sb.draw(sprHighScore,(float)(screenWidth * 0.0625), (float)(screenHeight * 0.999 - sprHighScore.getHeight()));
+
         ResourseLoader.font.draw(sb, "" + ResourseLoader.getHighScore(), (float)(screenWidth * 0.0625 + sprHighScore.getWidth() + screenWidth * 0.05),(float)(screenHeight * 0.999));
     }
 
