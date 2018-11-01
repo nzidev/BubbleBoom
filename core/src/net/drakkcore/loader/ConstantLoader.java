@@ -11,6 +11,8 @@ public class ConstantLoader {
     public static final float SPLASH_TIME = 0.1f;      //logo show and hide time in sec.
     public static final float LOGO_TIME = 0.1f;      //logo time in sec.
 
+    public static final boolean ENABLE_POWERCIRCLE = false; // enable or disable powercircles (baloons for collecting score)
+
     public static final double HELP_TIME = 1;         //after this time(sec) show help baloons
     public static final double MAX_TIME = 5;          //time in seconds
     public static final int MAX_STEP = 100;
